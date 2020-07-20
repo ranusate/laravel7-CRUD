@@ -55,11 +55,12 @@
                             <td>{{$row->name}}</td>
                             <td>{{$row->desc}}</td>
                             <td>
-                                <a href="" class="btn-warning">
-                                    <i class="fa fa-eye">Update</i></a>
-                                <a href="" class="btn-danger">Delete</a>
+                                <a href="" class="btn-warning btn-sm">
+                                    <i class="fa fa-edit"></i></a>
+                                <a href="" class="btn-danger btn-sm">
+                                <i class="fa fa-trash-o"></i></a>
                             </td>
-                            
+
                         </tr>
                         @endforeach
 
